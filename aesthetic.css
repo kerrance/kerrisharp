@@ -7,7 +7,7 @@ p {
 }
 
 html {
-  font-size: 18px;
+  font-size: 20px;
   font-family: 'Courier New', monospace;
   letter-spacing: -0.02rem;
   -webkit-font-smoothing: antialiased;
@@ -25,7 +25,7 @@ section {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   letter-spacing: -0.1rem;
   margin-bottom: 0.4rem;
 }
