@@ -19,7 +19,8 @@ body {
   margin: 10vh auto;
 }
 
-nav {
+nav,
+section {
   margin-top: 2rem;
 }
 
