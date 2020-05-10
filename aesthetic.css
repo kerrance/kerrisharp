@@ -19,9 +19,22 @@ body {
   margin: 10vh auto;
 }
 
-nav,
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+header,
 section {
   margin-top: 2rem;
+}
+
+.logo {
+  font-size: 4rem;
+  user-select: none;
 }
 
 h1 {
