@@ -19,7 +19,7 @@ html {
 body {
   width: 80%;
   max-width: 900px;
-  margin: 10vh auto;
+  margin: 2rem auto;
 }
 
 a {
@@ -67,6 +67,7 @@ a.logo {
   color :black;
   font-size: 4rem;
   user-select: none;
+  line-height: 1;
 }
 
 a.logo:hover {
