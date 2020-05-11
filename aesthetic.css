@@ -16,6 +16,7 @@ html {
 
 body {
   width: 80%;
+  max-width: 900px;
   margin: 10vh auto;
 }
 
@@ -44,10 +45,6 @@ a:before {
 
 a:hover::before {
   background: #003831;
-}
-
-.container {
-  max-width: 900px;
 }
 
 nav {
@@ -81,9 +78,10 @@ header {
   align-items: center;
 }
 
-header > section {
+header section {
   margin-top: 0;
-  flex: 1;
+  flex: 2 1;
+  margin-right: 0.6rem;
 }
 
 h1 {
