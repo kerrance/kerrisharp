@@ -121,8 +121,8 @@ p {
   margin-bottom: 0.6rem;
 }
 
-p:last-of-type {
-  margin-bottom: 0;
+::selection {
+  background-color: #f2c311;
 }
 
 ul {
