@@ -49,6 +49,14 @@ a:hover::before {
   background: #003831;
 }
 
+a:focus {
+  outline: #007f6e auto 1px;
+}
+
+a:focus::before {
+  background: none;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
