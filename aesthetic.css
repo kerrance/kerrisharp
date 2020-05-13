@@ -1,6 +1,8 @@
 html,
 body,
 h1,
+h2,
+h3,
 p {
   margin: 0;
   padding: 0;
@@ -17,7 +19,7 @@ html {
 body {
   width: 80%;
   max-width: 900px;
-  margin: 10vh auto;
+  margin: 2rem auto;
 }
 
 a {
@@ -47,6 +49,14 @@ a:hover::before {
   background: #003831;
 }
 
+a:focus {
+  outline: #007f6e auto 1px;
+}
+
+a:focus::before {
+  background: none;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -57,6 +67,7 @@ a.logo {
   color :black;
   font-size: 4rem;
   user-select: none;
+  line-height: 1;
 }
 
 a.logo:hover {
@@ -84,26 +95,87 @@ header section {
   margin-right: 0.6rem;
 }
 
+header aside img {
+  margin-bottom: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 0.6rem;
+  letter-spacing: -0.06rem;
+}
+
 h1 {
   font-size: 2rem;
-  letter-spacing: -0.06rem;
-  margin-bottom: 0.4rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.2rem;
 }
 
 p {
   margin-bottom: 0.6rem;
 }
 
-p:last-of-type {
+::selection {
+  background-color: #f2c311;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul li {
+  position: relative;
+  margin-bottom: 0.3rem;
+  margin-left: 0.6rem;
+  padding-left: 1.2rem
+}
+
+ul li:last-of-type {
   margin-bottom: 0;
+}
+
+ul li:before {
+  content: "\2022";
+  position: absolute;
+  left: 0;
+  font-size: 0.6rem;
+  line-height: 2.1;
+}
+
+ul li > strong {
+  margin-right: 0.6rem;
 }
 
 img {
   border-radius: 50%;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.6rem;
+}
+
+blockquote {
+  margin-block-start: 0.6rem;
+  margin-block-end: 0.6rem;
+  margin-inline-start: 0;
+  margin-inline-end: 0.6rem;
+  padding: 0.6rem;
+  border-left: 0.6rem solid #007f6e;
+}
+
+blockquote p:last-of-type {
+  margin-bottom: 0;
 }
 
 footer>* {
   display: inline-block;
   margin-right: 0.6rem;
+  margin-bottom: 0.6rem;
 }
