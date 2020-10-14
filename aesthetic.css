@@ -222,7 +222,7 @@ blockquote p:last-of-type {
   height: 100%;
 }
 
-footer>* {
+footer > * {
   display: inline-block;
   margin-right: 0.6rem;
   margin-bottom: 0.6rem;
