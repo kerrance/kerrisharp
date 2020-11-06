@@ -194,7 +194,7 @@ blockquote {
   margin-inline-start: 0;
   margin-inline-end: 0.6rem;
   padding: 0.6rem;
-  border-left: 0.6rem solid #007f6e;
+  border-left: 0.3rem solid #007f6e;
 }
 
 blockquote p:last-of-type {
