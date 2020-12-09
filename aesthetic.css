@@ -132,8 +132,15 @@ textarea,
 select {
   border: 2px solid #007f6e;
   width: -webkit-fill-available;
+  width: -moz-available;
   padding: 1.2rem;
   margin: 0.6rem 0;
+}
+
+input,
+textarea,
+select {
+  display: block;
 }
 
 button {
@@ -152,6 +159,11 @@ select:focus {
 button:focus {
   background-color: #f2c311;
   color: black;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0
 }
 
 ul {
