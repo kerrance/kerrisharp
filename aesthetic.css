@@ -51,13 +51,16 @@ a:focus {
   border-bottom: none;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+@media (min-width: 521px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 a.logo {
+  display: block;
   user-select: none;
   border-bottom: none;
   width: 74px;
@@ -69,15 +72,27 @@ a.logo:hover {
 }
 
 nav span {
-  text-align: right;
+  display: block;
 }
 
 nav span > * {
-  margin-left: 0.6rem;
+  margin: 1rem 1rem 0 0;
+  display: inline-block;
 }
 
-nav span > a:first-child {
-  margin-left: 0;
+nav span > a:last-child {
+  margin-right: 0;
+}
+
+@media (min-width: 521px) {
+  nav span {
+    display: flex;
+    text-align: right;
+  }
+
+  nav span > * {
+    margin-top: 0;
+  }
 }
 
 header,
