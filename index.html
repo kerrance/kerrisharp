@@ -66,5 +66,30 @@
       <img src="img/kerrisharp2020.jpg" width="128px">
     </aside>
   </header>
+
+  <section>
+    <h2>Do you want to receive emails from me?</h2>
+
+    <p>If you do, I will sometimes send you updates about my work or my life. Sometimes I may tell you about things that I've been enjoying, or I will write to you about topics that I think are interesting.</p>
+
+    <p>These emails probably won't be following a regular schedule, but hopefully you will smile a little bit each time one enters your inbox.</p>
+
+    <small>(Also, you can unsubscribe at any time if you don't like what I'm sending you. That's not a problem.)</small>
+  </section>
+
+  <section>
+    <form action="https://tinyletter.com/kerrisharp" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/kerrisharp', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+      <p>
+        <label for="tlemail">
+          <span>*</span> Your email address
+          <input type="text" name="email" id="tlemail" placeholder="Required" required />
+        </label>
+      </p>
+
+      <input type="hidden" value="1" name="embed"/>
+
+      <button type="submit">Subscribe to receive emails from me</button>
+    </form>
+  </section>
 </body>
 </html>
