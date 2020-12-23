@@ -51,6 +51,11 @@ a:focus {
   border-bottom: none;
 }
 
+b,
+strong {
+  font-weight: bold;
+}
+
 @media (min-width: 521px) {
   nav {
     display: flex;
