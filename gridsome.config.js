@@ -6,6 +6,7 @@
 
 module.exports = {
   siteName: 'Kerri Sharp',
+  siteUrl: 'https://kerrisharp.com',
   plugins: [
     {
       use: '@gridsome/source-filesystem',
@@ -15,7 +16,6 @@ module.exports = {
       }
     }
   ],
-  siteUrl: 'https://kerrisharp.com',
   transformers: {
     remark: {
       externalLinksTarget: '_blank',

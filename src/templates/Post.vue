@@ -1,8 +1,11 @@
 <template>
   <Layout>
     <g-link to="/" class="link">  &larr; Go Back</g-link>
+
     <h1>{{$page.post.title}}</h1>
-    <p>{{ $page.post.date}}</p>
+
+    <p>Posted: {{ $page.post.date}}.</p>
+
     <p v-html="$page.post.content" />
   </Layout>
 </template>

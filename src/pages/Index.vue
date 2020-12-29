@@ -4,13 +4,20 @@
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
     <g-image alt="Example image" src="~/favicon.png" width="135" />
 
-    <h1>Hello, world!</h1>
+    <section>
+      <table>
+        <thead>
+          <tr>
+            <td>Date</td>
+            <td>Title</td>
+          </tr>
+        </thead>
 
-    <article>
-      <section>
-        <Posts v-for="edge in $page.allPost.edges" :key="edge.node.id" :post="edge.node"/>
-      </section>
-    </article>
+        <tbody>
+          <Posts v-for="edge in $page.allPost.edges" :key="edge.node.id" :post="edge.node" />
+        </tbody>
+      </table>
+    </section>
 
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores

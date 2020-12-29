@@ -1,10 +1,15 @@
 <template>
-  <section>
-    <p v-html="post.date" />
-    <h1 v-html="post.title" />
-    <p v-html="post.description" />
-    <g-link :to="post.path">Read More...</g-link>
-  </section>
+  <tr>
+    <td>
+      <p v-html="post.date" />
+    </td>
+
+    <td>
+      <g-link :to="post.path">
+        <p v-html="post.title" />
+      </g-link>
+    </td>
+  </tr>
 </template>
 
 <script>
