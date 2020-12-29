@@ -6,6 +6,12 @@
 
     <h1>Hello, world!</h1>
 
+    <article>
+      <section>
+        <Posts v-for="edge in $page.allPost.edges" :key="edge.node.id" :post="edge.node"/>
+      </section>
+    </article>
+
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
     </p>
@@ -19,12 +25,34 @@
 </template>
 
 <script>
+import Posts from "@/components/Posts";
+
 export default {
+  components: {
+    Posts
+  },
   metaInfo: {
     title: 'Hello, world!'
   }
 }
 </script>
+
+<page-query>
+  query {
+    allPost {
+      totalCount
+        edges {
+          node {
+            id
+            title
+            description
+            date (format: "D MMMM YYYY")
+            path
+        }
+      }
+    }
+  }
+</page-query>
 
 <style>
 .home-links a {
