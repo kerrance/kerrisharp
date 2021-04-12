@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#007f6e">
-  <title>Kerri Sharp</title>
+  <title>Kerri Sharp - Subscribe</title>
   <meta name="description" content="I'm a British web developer currently living in Somerset, England."/>
   <meta name="rating" content="general"/>
   <meta name="copyright" content="Copyright © 2020 Kerri Sharp"/>
@@ -62,22 +62,41 @@
 
   <header>
     <section>
-      <h1>Hello, my name is Kerri</h1>
+      <h1>Subscribe</h1>
 
-      <p>I am a British web developer currently living in Somerset, England.</p>
+      <p>These emails don't follow a regular schedule, but hopefully you will smile a little bit each time one enters your inbox.</p>
     </section>
 
     <aside>
-      <img src="img/kerrisharp2020.jpg" width="128px">
+      <img src="img/subscribe.jpg" srcset="img/subscribe.jpg 1x, img/subscribe@2x.jpg 2x" width="128px">
     </aside>
   </header>
 
   <section>
-    <p>My intention with this website is to gather all of <a href="/works">my work</a> into one place. You can also find out more <a href="/about">about me</a> if you're interested.</p>
+    <h2>Do you want to receive emails from me?</h2>
 
-    <p>If you would like to hear from me more regularly, you can <a href="/subscribe">subscribe to receive emails</a> from me.
+    <p>If you do, I will sometimes send you updates about my work or my life. Sometimes I may tell you about things that I've been enjoying, or I will write to you about topics that I think are interesting.</p>
 
-    <p>Additionally, if you're interested in working together, you can <a href="/contact">contact me</a>.</p>
+    <small>Also, you can unsubscribe at any time if you don't like what I'm sending you. That's not a problem.</small>
   </section>
+
+  <section>
+    <form action="https://tinyletter.com/kerrisharp" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/kerrisharp', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+      <p>
+        <label for="tlemail">
+          <span>*</span> Your email address
+          <input type="text" name="email" id="tlemail" placeholder="Required" required />
+        </label>
+      </p>
+
+      <input type="hidden" value="1" name="embed"/>
+
+      <button type="submit">Subscribe to receive emails from me</button>
+    </form>
+  </section>
+
+  <footer>
+    <a href="#">Back to the top</a>
+  </footer>
 </body>
 </html>
