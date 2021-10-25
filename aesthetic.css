@@ -219,38 +219,6 @@ a.logo img {
   margin-bottom: 0;
 }
 
-blockquote {
-  margin-block-start: 0.6rem;
-  margin-block-end: 0.6rem;
-  margin-inline-start: 0;
-  margin-inline-end: 0.6rem;
-  padding: 0.6rem;
-  border-left: 0.3rem solid #007f6e;
-}
-
-blockquote p:last-of-type {
-  margin-bottom: 0;
-}
-
-.responsive-embed {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
-  margin-bottom: 0.6rem;
-}
-
-.responsive-embed iframe,
-.responsive-embed object,
-.responsive-embed embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
 footer > * {
   display: inline-block;
   margin-right: 0.6rem;
