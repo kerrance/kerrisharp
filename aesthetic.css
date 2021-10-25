@@ -15,12 +15,7 @@ textarea,
 select {
   font-size: 20px;
   font-family: Verdana, sans-serif;
-  font-weight: 300;
-  letter-spacing: -0.01rem;
-  text-decoration: none;
-  line-height: 1.4rem;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
   scroll-behavior: smooth;
 }
 
@@ -31,10 +26,7 @@ body {
 }
 
 a {
-  text-decoration: none;
-  position: relative;
   color: #007f6e;
-  border-bottom: 1px solid #007f6e;
 }
 
 a:visited {
@@ -43,12 +35,10 @@ a:visited {
 
 a:hover {
   color: #006a5d;
-  border-bottom: 1px solid #006a5d;
 }
 
 a:focus {
   outline: #007f6e auto 1px;
-  border-bottom: none;
 }
 
 b,
@@ -227,38 +217,6 @@ img {
 a.logo img {
   border-radius: 0;
   margin-bottom: 0;
-}
-
-blockquote {
-  margin-block-start: 0.6rem;
-  margin-block-end: 0.6rem;
-  margin-inline-start: 0;
-  margin-inline-end: 0.6rem;
-  padding: 0.6rem;
-  border-left: 0.3rem solid #007f6e;
-}
-
-blockquote p:last-of-type {
-  margin-bottom: 0;
-}
-
-.responsive-embed {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
-  margin-bottom: 0.6rem;
-}
-
-.responsive-embed iframe,
-.responsive-embed object,
-.responsive-embed embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
 
 footer > * {
