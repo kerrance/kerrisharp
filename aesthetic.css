@@ -12,6 +12,10 @@ body {
   padding: 6%;
 }
 
+::selection {
+  background-color: #f2c311;
+}
+
 a {
   color: #007f6e;
 }
@@ -29,8 +33,10 @@ a:focus {
 }
 
 h1,
-h2 {
-  margin-bottom: 0.6rem;
+h2,
+p,
+ul {
+  margin: 0.6rem 0;
 }
 
 h1 {
@@ -39,14 +45,6 @@ h1 {
 
 h2 {
   font-size: 1.4rem;
-}
-
-p {
-  margin-bottom: 0.6rem;
-}
-
-::selection {
-  background-color: #f2c311;
 }
 
 ul {
