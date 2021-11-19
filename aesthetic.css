@@ -5,6 +5,7 @@ html {
   margin: 0;
   padding: 0;
   border-top: 0.3rem solid #007f6e;
+  scroll-behavior: smooth;
 }
 
 body {
