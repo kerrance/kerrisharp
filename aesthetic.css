@@ -19,6 +19,8 @@ body {
 
 a {
   color: #007f6e;
+  text-decoration: underline #007f6e 0.1rem;
+  text-underline-offset: 0.1rem;
 }
 
 a:visited {
@@ -31,6 +33,7 @@ a:hover {
 
 a:focus {
   outline: #007f6e auto 1px;
+  text-decoration: none;
 }
 
 h1,
