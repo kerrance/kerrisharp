@@ -45,6 +45,8 @@ ul {
 
 h1 {
   font-size: 2.4rem;
+  text-decoration: underline #f2c311 0.2rem;
+  text-underline-offset: 0.2rem;
 }
 
 h2 {
