@@ -1,5 +1,6 @@
 :root {
   --color__green: #007f6e;
+  --color__mid-green: #006a5d;
   --color__yellow: #f2c311;
   --color__black: #01110f;
 }
@@ -48,7 +49,8 @@ a:visited {
 }
 
 a:hover {
-  color: #006a5d;
+  color: var(--color__mid-green);
+  text-decoration: underline var(--color__mid-green) 0.1rem;
 }
 
 a:focus {
