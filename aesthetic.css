@@ -10,7 +10,7 @@ html {
 
 @media (prefers-color-scheme: dark) {
   html {
-    background-color: black;
+    background-color: #01110f;
     color: white;
   }
 }
@@ -23,6 +23,12 @@ body {
 
 ::selection {
   background-color: #f2c311;
+}
+
+@media (prefers-color-scheme: dark) {
+  ::selection {
+    color: #01110f;
+  }
 }
 
 a {
