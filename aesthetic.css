@@ -83,3 +83,19 @@ h2 {
 ul {
   padding-left: 1.2rem;
 }
+
+details > summary,
+details > p {
+  padding: 0.6rem;
+  width: 100%;
+}
+
+details > summary {
+  background-color: #eeeeee;
+  cursor: pointer;
+}
+
+details summary > * {
+  display: inline;
+  margin: 0;
+}
