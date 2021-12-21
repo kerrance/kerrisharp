@@ -91,8 +91,21 @@ details > p {
 }
 
 details > summary {
-  background-color: #eeeeee;
+  background-color: #e7eeed;
   cursor: pointer;
+  list-style-type: none;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details > summary::before {
+  content: "\2192";
+}
+
+details[open] > summary::before {
+  content: '\2193';
 }
 
 details summary > * {
