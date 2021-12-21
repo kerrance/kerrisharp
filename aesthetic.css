@@ -89,7 +89,8 @@ details {
 }
 
 details > summary {
-  background-color: #e7eeed;
+  padding: 0.6rem;
+  background-color: #e9efea;
   cursor: pointer;
   list-style-type: none;
 }
