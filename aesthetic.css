@@ -83,3 +83,35 @@ h2 {
 ul {
   padding-left: 1.2rem;
 }
+
+details {
+  margin: 1.2rem 0;
+}
+
+details > summary {
+  padding: 0.6rem;
+  background-color: #e9efea;
+  cursor: pointer;
+  list-style-type: none;
+}
+
+details > p {
+  padding: 0 1.2rem;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details > summary::before {
+  content: "\2192";
+}
+
+details[open] > summary::before {
+  content: '\2193';
+}
+
+details summary > * {
+  display: inline;
+  margin: 0;
+}
