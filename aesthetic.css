@@ -39,7 +39,7 @@ body {
   }
 }
 
-a {
+a:link {
   color: var(--color__green);
   text-decoration: underline var(--color__green) 0.1rem;
   text-underline-offset: 0.1rem;
@@ -54,9 +54,13 @@ a:hover {
   text-decoration: underline var(--color__mid-green) 0.1rem;
 }
 
+a:active {
+  color: var(--color__mid-green);
+  text-decoration: underline var(--color__mid-green) 0.1rem;
+}
+
 a:focus {
   outline: var(--color__green) auto 1px;
-  text-decoration: none;
 }
 
 strong {
