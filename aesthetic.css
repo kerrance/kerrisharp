@@ -12,7 +12,6 @@ html {
   line-height: 1.5;
   margin: 0;
   padding: 0;
-  border-top: 0.2rem solid var(--color__green);
   scroll-behavior: smooth;
 }
 
