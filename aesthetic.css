@@ -102,8 +102,31 @@ h2 {
   font-size: 1.2rem;
 }
 
+h3 {
+  font-size: 1rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.6rem 0;
+}
+
+thead th {
+  text-decoration: underline var(--color__yellow) 0.2rem;
+  text-underline-offset: 0.2rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+tbody tr td:first-of-type {
+  font-weight: bold;
+  width: 33%;
+  vertical-align: top;
+}
+
 details {
-  margin: 1.2rem 0;
+  margin: 0.6rem 0;
 }
 
 details > summary {
@@ -113,7 +136,7 @@ details > summary {
 }
 
 details > p {
-  padding: 0 1.2rem;
+  padding: 0 0.6rem;
 }
 
 details > summary::-webkit-details-marker {
