@@ -2,40 +2,42 @@
   --color__green: #007f6e;
   --color__mid-green: #006a5d;
   --color__yellow: #f2c311;
-  --color__black: #01110f;
 }
 
 html {
-  font-size: 20px;
-  font-family: Arial, sans-serif;
-  color: var(--color__black);
-  line-height: 1.5;
+  height: 100%;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
 }
 
-@media (prefers-color-scheme: dark) {
+@media screen and (min-width: 420px) {
   html {
-    background-color: var(--color__black);
-    color: white;
+    background-image: url("banana-leaf.jpg");
+    background-repeat: repeat-y;
+    background-position: center center;
+    background-size: cover;
   }
 }
 
 body {
-  width: 80%;
   max-width: 900px;
-  padding: 6%;
+  padding: 4%;
+  background-color: white;
+  font-size: 1.25rem;
+  font-family: Arial, sans-serif;
+  color: #01110f;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 420px) {
+  body {
+    margin: 4%;
+  }
 }
 
 ::selection {
   background-color: var(--color__yellow);
-}
-
-@media (prefers-color-scheme: dark) {
-  ::selection {
-    color: var(--color__black);
-  }
 }
 
 a:link {
@@ -60,10 +62,6 @@ a:active {
 
 a:focus {
   outline: var(--color__green) auto 1px;
-}
-
-strong {
-  margin-right: 0.1rem;
 }
 
 h1,
