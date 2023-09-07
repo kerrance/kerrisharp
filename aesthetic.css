@@ -33,6 +33,10 @@ body {
     max-width: none;
     padding: 0;
   }
+
+  .screen-only {
+    display: none;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -93,10 +97,4 @@ h2 {
 
 h3 {
   font-size: 1.4rem;
-}
-
-@media print {
-  .screen-only {
-    display: none;
-  }
 }
