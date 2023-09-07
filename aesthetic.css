@@ -7,17 +7,13 @@
 html {
   margin: 0;
   padding: 0;
-  scroll-behavior: smooth;
-  background-image: url("banana-leaf.jpg");
-  background-repeat: repeat-y;
-  background-position: center center;
-  background-size: cover;
 }
 
 body {
+  width: 88%;
   max-width: 900px;
-  padding: 4%;
-  margin: 4rem auto;
+  padding: 6%;
+  margin: 0;
   background-color: white;
   font-size: 1.25rem;
   font-family: Arial, sans-serif;
@@ -27,7 +23,14 @@ body {
 
 @media screen and (min-width: 420px) {
   body {
-    margin: 4%;
+    width: 80%;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #011513;
+    color: white;
   }
 }
 
