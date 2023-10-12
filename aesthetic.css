@@ -2,11 +2,13 @@
   --color__green: #007f6e;
   --color__mid-green: #006a5d;
   --color__yellow: #f2c311;
+  --color__black: #01110f;
 }
 
-html {
+* {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -17,7 +19,7 @@ body {
   background-color: white;
   font-size: 20px;
   font-family: Arial, sans-serif;
-  color: #01110f;
+  color: var(--color__black);
   line-height: 1.5;
 }
 
@@ -41,13 +43,19 @@ body {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #011513;
+    background-color: var(--color__black);
     color: white;
   }
 }
 
 ::selection {
   background-color: var(--color__yellow);
+}
+
+@media (prefers-color-scheme: dark) {
+  ::selection {
+    color: var(--color__black);
+  }
 }
 
 a:link {
@@ -60,12 +68,8 @@ a:visited {
   color: var(--color__green);
 }
 
+a:active,
 a:hover {
-  color: var(--color__mid-green);
-  text-decoration: underline var(--color__mid-green) 0.1rem;
-}
-
-a:active {
   color: var(--color__mid-green);
   text-decoration: underline var(--color__mid-green) 0.1rem;
 }
@@ -97,4 +101,80 @@ h2 {
 
 h3 {
   font-size: 1.4rem;
+}
+
+ul {
+  padding-left: 1.25rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li + li:before {
+  content: "/\00a0";
+  color: var(--color__green);
+}
+
+nav a:link,
+nav a:visited {
+  color: var(--color__mid-green);
+}
+
+strong {
+  margin-right: 0.1rem;
+}
+
+article header {
+  display: block;
+  font-size: 0.8rem;
+  margin: 0.6rem 0;
+  color: #60289b;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.6rem 0;
+}
+
+thead th {
+  text-decoration: underline var(--color__yellow) 0.2rem;
+  text-underline-offset: 0.2rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+tbody tr td:first-of-type {
+  font-weight: bold;
+  width: 33%;
+  vertical-align: top;
+}
+
+details {
+  margin: 0.6rem 0;
+}
+
+details > summary {
+  padding: 0;
+  cursor: pointer;
+  list-style-type: none;
+}
+
+details > p {
+  padding: 0 0.6rem;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details summary > * {
+  margin: 0;
 }
