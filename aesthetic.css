@@ -76,6 +76,8 @@ a:hover {
 
 a:focus {
   outline: var(--color__green) auto 1px;
+  outline-offset: 0.2rem;
+  text-decoration: none;
 }
 
 h1,
@@ -131,6 +133,17 @@ nav ul li a:visited {
   color: grey;
 }
 
+@media (prefers-color-scheme: dark) {
+  nav ul li a:link {
+    background-color: #1f1f1f;
+    color: grey;
+  }
+
+  nav ul li a:visited {
+    color: grey;
+  }
+}
+
 nav ul li:last-child {
   margin-right: 0;
 }
@@ -156,6 +169,7 @@ nav ul li a:focus,
 nav ul li:last-child a:focus {
   background-color: var(--color__mid-green);
   outline: var(--color__yellow) auto 1px;
+  outline-offset: 0.2rem;
   color: white;
 }
 
