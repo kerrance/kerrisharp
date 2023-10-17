@@ -111,20 +111,29 @@ nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  font-size: 0.8rem;
 }
 
 nav ul li {
   display: inline;
+  margin-right: 0.6rem;
 }
 
-nav ul li + li:before {
-  content: "/\00a0";
-  color: var(--color__green);
+nav ul li a:link {
+  background-color: #ebebeb;
+  color: grey;
+  padding: 0.2rem 0.6rem;
+  border-radius: 0.3rem;
+  text-decoration: none;
 }
 
-nav a:link,
-nav a:visited {
-  color: var(--color__mid-green);
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li:last-child a:link {
+  background-color: var(--color__yellow);
+  color: var(--color__black);
 }
 
 article header {
