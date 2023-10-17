@@ -127,6 +127,10 @@ nav ul li a:link {
   text-decoration: none;
 }
 
+nav ul li a:visited {
+  color: grey;
+}
+
 nav ul li:last-child {
   margin-right: 0;
 }
@@ -134,6 +138,25 @@ nav ul li:last-child {
 nav ul li:last-child a:link {
   background-color: var(--color__yellow);
   color: var(--color__black);
+}
+
+nav ul li:last-child a:visited {
+  color: var(--color__black);
+}
+
+nav ul li a:active,
+nav ul li a:hover,
+nav ul li:last-child a:active,
+nav ul li:last-child a:hover {
+  background-color: var(--color__mid-green);
+  color: white;
+}
+
+nav ul li a:focus,
+nav ul li:last-child a:focus {
+  background-color: var(--color__mid-green);
+  outline: var(--color__yellow) auto 1px;
+  color: white;
 }
 
 article header {
