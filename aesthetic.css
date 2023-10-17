@@ -174,10 +174,18 @@ nav ul li:last-child a:focus {
 }
 
 article header {
-  display: block;
+  display: inline-block;
   font-size: 0.8rem;
-  margin: 0.6rem 0;
-  color: #60289b;
+  margin: 1.2rem 0 0.6rem;
+  padding: 0.1rem 0.6rem;
+  background-color: #60289b;
+  color: #cfbbe4;
+  border-radius: 0.3rem;
+  font-weight: bold;
+}
+
+article header time {
+  font-weight: normal;
 }
 
 table {
