@@ -209,3 +209,8 @@ details > summary::-webkit-details-marker {
 details summary > * {
   margin: 0;
 }
+
+iframe {
+  aspect-ratio: 16 / 9;
+  width: 100% !important;
+}
