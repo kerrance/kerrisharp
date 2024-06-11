@@ -178,8 +178,8 @@ article header {
   font-size: 0.8rem;
   margin: 1.2rem 0 0.6rem;
   padding: 0.1rem 0.6rem;
-  background-color: #60289b;
-  color: #cfbbe4;
+  background-color: var(--color__green);
+  color: white;
   border-radius: 0.3rem;
   font-weight: bold;
 }
