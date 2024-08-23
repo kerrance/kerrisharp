@@ -20,7 +20,7 @@ body {
   font-size: 20px;
   font-family: Arial, sans-serif;
   color: var(--color__black);
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 @media screen and (min-width: 420px) {
@@ -84,7 +84,7 @@ h1,
 h2,
 h3,
 p {
-  margin: 0.6rem 0;
+  margin: 1.2rem 0;
 }
 
 h1 {
@@ -118,7 +118,7 @@ nav ul {
 
 nav ul li {
   display: inline;
-  margin-right: 0.3rem;
+  margin-right: 0.6rem;
 }
 
 nav ul li a:link {
@@ -189,7 +189,7 @@ article header time {
 }
 
 details {
-  margin: 0.6rem 0;
+  margin: 1.2rem 0;
 }
 
 details > summary {
@@ -199,7 +199,7 @@ details > summary {
 }
 
 details > p {
-  padding: 0 0.6rem;
+  padding: 0 1.2rem;
 }
 
 details > summary::-webkit-details-marker {
