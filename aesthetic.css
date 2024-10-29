@@ -187,8 +187,3 @@ article header {
 article header time {
   font-weight: normal;
 }
-
-iframe {
-  aspect-ratio: 16 / 9;
-  width: 100% !important;
-}
