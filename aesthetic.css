@@ -172,18 +172,3 @@ nav ul li:last-child a:focus {
   outline-offset: 0.2rem;
   color: white;
 }
-
-article header {
-  display: inline-block;
-  font-size: 0.8rem;
-  margin: 1.2rem 0 0.6rem;
-  padding: 0.1rem 0.6rem;
-  background-color: var(--color__green);
-  color: white;
-  border-radius: 0.3rem;
-  font-weight: bold;
-}
-
-article header time {
-  font-weight: normal;
-}
