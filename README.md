@@ -1,4 +1,4 @@
-# Kerri Sharp
+# Kerri Sharp-Scott
 
 To be found at [https://kerrisharp.com](https://kerrisharp.com).
 
