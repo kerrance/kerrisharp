@@ -23,32 +23,17 @@
       }
 
       body {
-        width: 88%;
-        max-width: 900px;
-        padding: 6%;
-        margin: 0;
         background-color: white;
         font-size: 20px;
         font-family: Arial, sans-serif;
         color: var(--color__black);
-        line-height: 1.5;
-      }
-
-      @media screen and (min-width: 420px) {
-        body {
-          width: 80%;
-        }
+        line-height: 1.6;
+        padding: 6vh 9vw;
       }
 
       @media print {
         body {
-          width: 100%;
-          max-width: none;
           padding: 0;
-        }
-
-        .screen-only {
-          display: none;
         }
       }
 
@@ -93,9 +78,16 @@
 
       h1,
       h2,
-      h3,
       p {
         margin: 0.6rem 0;
+      }
+
+      @media screen {
+        h1,
+        h2,
+        p {
+          max-width: 42rem;
+        }
       }
 
       h1 {
@@ -104,84 +96,8 @@
         text-underline-offset: 0.2rem;
       }
 
-      h1:first-of-type {
-        margin-top: 0;
-      }
-
       h2 {
         font-size: 1.8rem;
-      }
-
-      h3 {
-        font-size: 1.4rem;
-      }
-
-      ul {
-        padding-left: 1.25rem;
-      }
-
-      nav ul {
-        list-style: none;
-        padding: 0;
-        margin: 0 0 2.4rem;
-        font-size: 0.8rem;
-      }
-
-      nav ul li {
-        display: inline;
-        margin-right: 0.3rem;
-      }
-
-      nav ul li a:link {
-        background-color: #ebebeb;
-        color: grey;
-        padding: 0.2rem 0.6rem;
-        border-radius: 0.3rem;
-        text-decoration: none;
-      }
-
-      nav ul li a:visited {
-        color: grey;
-      }
-
-      @media (prefers-color-scheme: dark) {
-        nav ul li a:link {
-          background-color: #1f1f1f;
-          color: grey;
-        }
-
-        nav ul li a:visited {
-          color: grey;
-        }
-      }
-
-      nav ul li:last-child {
-        margin-right: 0;
-      }
-
-      nav ul li:last-child a:link {
-        background-color: var(--color__yellow);
-        color: var(--color__black);
-      }
-
-      nav ul li:last-child a:visited {
-        color: var(--color__black);
-      }
-
-      nav ul li a:active,
-      nav ul li a:hover,
-      nav ul li:last-child a:active,
-      nav ul li:last-child a:hover {
-        background-color: var(--color__mid-green);
-        color: white;
-      }
-
-      nav ul li a:focus,
-      nav ul li:last-child a:focus {
-        background-color: var(--color__mid-green);
-        outline: var(--color__yellow) auto 1px;
-        outline-offset: 0.2rem;
-        color: white;
       }
     </style>
   </head>
@@ -194,18 +110,18 @@
     </header>
 
     <section>
-      <p>I am curious, empathetic and always seeking the truth.</p>
+      <p>I am a British software engineer and web developer.</p>
 
       <p>
-        My most firmly held value is to "see the bigger picture". Critical thinking and asking questions are very
-        important to me.
+        I am curious, empathetic and always seeking the truth. My most firmly held value is to "see the bigger picture".
+        Critical thinking and asking questions are very important to me.
       </p>
 
-      <p>I enjoy singing, dancing and playing video games like Tetris, Age of Empires and Mario Kart.</p>
-
-      <p>I live in Somerset, England with my wife and our daughter.</p>
-
-      <p>If you are interested in finding out about my work, you can <a href="/cv">read my CV</a>.</p>
+      <p>I currently live in England with my wife and our daughter.</p>
     </section>
+
+    <footer>
+      <a href="mailto:hello@kerrisharp.com">hello@kerrisharp.com</a>
+    </footer>
   </body>
 </html>
