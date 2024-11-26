@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Kerri Sharp-Scott's CV</title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Kerri Sharp-Scott" />
+    <meta name="description" content="This is my CV where you can find out more about my career and skills" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#007f6e" />
+
+    <style>
+      :root {
+        --color__green: #007f6e;
+        --color__mid-green: #006a5d;
+        --color__yellow: #f2c311;
+        --color__black: #000908;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-size: 20px;
+        font-family: Arial, sans-serif;
+        color: var(--color__black);
+        line-height: 1.4;
+        padding: 6vh 9vw;
+        max-width: 64rem;
+      }
+
+      header,
+      section {
+        margin-bottom: 1rem;
+      }
+
+      @media print {
+        body {
+          font-size: 10.5pt;
+          color: #000;
+          padding: 0;
+        }
+
+        header,
+        section {
+          margin-bottom: 10px;
+        }
+      }
+
+      @media (prefers-color-scheme: dark) {
+        body {
+          background-color: var(--color__black);
+          color: white;
+        }
+      }
+
+      ::selection {
+        background-color: var(--color__yellow);
+      }
+
+      @media (prefers-color-scheme: dark) {
+        ::selection {
+          color: var(--color__black);
+        }
+      }
+
+      a:link {
+        color: var(--color__green);
+      }
+
+      @media screen {
+        a:link {
+          text-decoration: underline var(--color__green) 0.1rem;
+          text-underline-offset: 0.1rem;
+          word-break: break-all;
+        }
+      }
+
+      a:visited {
+        color: var(--color__green);
+      }
+
+      a:active,
+      a:hover {
+        color: var(--color__mid-green);
+        text-decoration: underline var(--color__mid-green) 0.1rem;
+      }
+
+      a:focus {
+        outline: var(--color__green) auto 1px;
+        outline-offset: 0.2rem;
+        text-decoration: none;
+      }
+
+      @media screen {
+        h1,
+        h2 {
+          text-decoration: underline var(--color__yellow) 0.2rem;
+          text-underline-offset: 0.2rem;
+        }
+
+        h1 {
+          font-size: 3rem;
+        }
+      }
+
+      @media print {
+        h2 {
+          border-bottom: solid 1px black;
+          margin-bottom: 4px;
+        }
+      }
+
+      ul {
+        padding-left: 1.25rem;
+      }
+
+      @media print {
+        ul {
+          padding-left: 15px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Kerri Sharp-Scott</h1>
+
+      <p>
+        <a href="mailto:hello@kerrisharp.com">hello@kerrisharp.com</a>
+      </p>
+    </header>
+
+    <article>
+      <section>
+        <p>
+          Experienced software engineer and web developer specialising in bespoke web applications, websites, and APIs.
+          Adept at delivering user-focused, testable solutions and passionate about fostering a healthy workplace
+          culture. Industry experience in crafting impactful digital products and services since 2016.
+        </p>
+      </section>
+
+      <h2>Skills</h2>
+
+      <section>
+        <ul>
+          <li>
+            <strong>Confident:</strong> PHP, HTML, CSS, MySQL, PostgreSQL, SASS, WordPress, Jekyll, Git, Postman, YAGNI,
+            DRY, TDD
+          </li>
+          <li>
+            <strong>Experienced:</strong> GoLang, Laravel, Composer, OpenAPI, CI/CD, REST, OOP, DI, CQRS, Scrum, Agile
+          </li>
+          <li><strong>Learning:</strong> AWS, Docker, React, Next.js, Vue.js, TypeScript, Sentry, SOLID, DDD, BDD</li>
+        </ul>
+      </section>
+
+      <h2>Experience</h2>
+
+      <section>
+        <h3>
+          Software Engineer II, Intelligence Fusion / Sigma7<span style="float: right">2024 &ndash; Present</span>
+        </h3>
+
+        <p>
+          Built a suite of web applications to improve customer accessibility to the parent-company's risk services.
+        </p>
+
+        <ul>
+          <li>
+            Led an initiative to encourage asynchronous communication, creating screen-recordings and SOP's which
+            reduced the requirement for meetings
+          </li>
+          <li>
+            Documented technical decision-making and drew data-flow diagrams for a new tech-stack, capturing research
+            efforts for future reference, helping external employees to understand my team's decision making
+          </li>
+          <li>
+            Created a peer-review process where employees are celebrated for their successes, increasing employee
+            satisfaction and team building at work
+          </li>
+          <li>Mentored junior employees, empowering frontend engineers how to make full use of backend technology</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Software Engineer, Intelligence Fusion<span style="float: right">2021 &ndash; 2024</span></h3>
+
+        <p>Developed full-stack web applications, APIs and services for accessing threat intelligence data.</p>
+
+        <ul>
+          <li>
+            Created a fully-documented "Notes" service to enable user-generated content within the application. Clients
+            could then create and share additional context with their colleagues
+          </li>
+          <li>
+            Led a "hackathon" where my team built a "Spotify Wrapped"-alike for our intelligence analysts, summarising
+            their efforts over the year with a humourous presentation improving team morale and encouraging competition
+          </li>
+          <li>
+            Implemented a third-party intelligence API to regularly ingest their data and display it alongside our own
+          </li>
+          <li>
+            Created a system to dynamically generate map images of incident locations for customer email notifications
+          </li>
+          <li>
+            Recreated a large chunk of legacy code to remove event-driven architecture, enabling intelligence analysts
+            to keep country information and statistics up-to-date
+          </li>
+          <li>Built a multi-factor authentication system for improved security during logging in</li>
+          <li>
+            Implemented authentication logging so that customers could scrutinise and keep track of login attempts
+          </li>
+          <li>Created a user-facing Jamstack website to document our APIs and upcoming feature work roadmap</li>
+          <li>Built many CRUD REST API endpoints with idempotent responses</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Web Developer, Think Productive<span style="float: right">2020 &ndash; 2021</span></h3>
+
+        <p>Re-built all of the company's customer-facing WordPress websites for improved performance and usability.</p>
+
+        <ul>
+          <li>Untangled complex multisite database set up into several, individually managed websites</li>
+          <li>
+            Reduced reliance on plugins by writing many bespoke features natively, reduced from 63 down to 4, vastly
+            improving page load times
+          </li>
+          <li>
+            Built the "Productivity Ninja Academy", an asynchronous learning platform, empowering thousands of delegates
+            globally to access post-workshop materials on-demand in multiple different languages
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Web Developer, Opia<span style="float: right">2016 &ndash; 2020</span></h3>
+
+        <p>
+          Developed hundreds of sales promotion websites for technology companies; including Google, LG and Microsoft.
+        </p>
+
+        <ul>
+          <li>
+            Led email campaign development, delivering high-quality, responsive designs, leading to positive feedback
+          </li>
+          <li>Represented the company at industry events, giving presentations about responsive email development</li>
+          <li>Paired and mentored junior developers about responsive design, version control, automated testing etc</li>
+        </ul>
+      </section>
+    </article>
+  </body>
+</html>
