@@ -8,33 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#007f6e" />
 
+    <link href="aesthetic.css" rel="stylesheet" />
     <style>
-      :root {
-        --color__green: #007f6e;
-        --color__mid-green: #006a5d;
-        --color__yellow: #f2c311;
-        --color__black: #000908;
-      }
-
-      * {
-        margin: 0;
-        padding: 0;
-      }
-
-      body {
-        font-size: 20px;
-        font-family: Arial, sans-serif;
-        color: var(--color__black);
-        line-height: 1.4;
-        padding: 6vh 9vw;
-        max-width: 64rem;
-      }
-
-      header,
-      section {
-        margin-bottom: 1rem;
-      }
-
       @media print {
         body {
           font-size: 10.5pt;
@@ -46,87 +21,29 @@
         section {
           margin-bottom: 10px;
         }
-      }
 
-      @media (prefers-color-scheme: dark) {
-        body {
-          background-color: var(--color__black);
-          color: white;
-        }
-      }
-
-      ::selection {
-        background-color: var(--color__yellow);
-      }
-
-      @media (prefers-color-scheme: dark) {
-        ::selection {
-          color: var(--color__black);
-        }
-      }
-
-      a:link {
-        color: var(--color__green);
-      }
-
-      @media screen {
         a:link {
-          text-decoration: underline var(--color__green) 0.1rem;
-          text-underline-offset: 0.1rem;
-          word-break: break-all;
+          color: var(--color__black);
+          text-decoration: none;
+          text-underline-offset: initial;
+          word-break: normal;
         }
-      }
 
-      a:visited {
-        color: var(--color__green);
-      }
-
-      a:active,
-      a:hover {
-        color: var(--color__mid-green);
-        text-decoration: underline var(--color__mid-green) 0.1rem;
-      }
-
-      a:focus {
-        outline: var(--color__green) auto 1px;
-        outline-offset: 0.2rem;
-        text-decoration: none;
-      }
-
-      .dates {
-        float: right;
-      }
-
-      @media only screen and (max-width: 936px) {
-        .dates {
-          float: none;
-        }
-      }
-
-      @media screen {
         h1,
         h2 {
-          text-decoration: underline var(--color__yellow) 0.2rem;
-          text-underline-offset: 0.2rem;
+          text-decoration: none;
+          text-underline-offset: initial;
         }
 
         h1 {
-          font-size: 3rem;
+          font-size: 2em;
         }
-      }
 
-      @media print {
         h2 {
           border-bottom: solid 1px black;
           margin-bottom: 4px;
         }
-      }
 
-      ul {
-        padding-left: 1.25rem;
-      }
-
-      @media print {
         ul {
           padding-left: 15px;
         }
@@ -169,7 +86,9 @@
       <h2>Experience</h2>
 
       <section>
-        <h3>Software Engineer II, Intelligence Fusion / Sigma7&nbsp;<span class="dates">June 2024 &ndash; Present</span></h3>
+        <h3>
+          Software Engineer II, Intelligence Fusion / Sigma7&nbsp;<span class="dates">June 2024 &ndash; Present</span>
+        </h3>
 
         <p>
           Built a suite of web applications to improve customer accessibility to the parent-company's risk services.
@@ -212,7 +131,6 @@
           <li>
             Created a system to dynamically generate map images of incident locations for customer email notifications
           </li>
-          </li>
           <li>Built a multi-factor authentication system for improved security during logging in</li>
           <li>
             Implemented authentication logging so that customers could scrutinise and keep track of login attempts
@@ -223,6 +141,8 @@
           <li>
             Recreated a large chunk of legacy code to remove event-driven architecture, enabling intelligence analysts
             to keep country information and statistics up-to-date
+          </li>
+
           <li>Created a user-facing Jamstack website to document our APIs and upcoming feature work roadmap</li>
           <li>Built many CRUD REST API endpoints with idempotent responses</li>
         </ul>
