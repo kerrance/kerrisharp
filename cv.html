@@ -9,6 +9,20 @@
     <meta name="theme-color" content="#007f6e" />
     <link href="aesthetic.css" rel="stylesheet" />
     <style>
+      p {
+        margin-bottom: 0;
+      }
+
+      .dates {
+        float: right;
+      }
+
+      @media only screen and (max-width: 936px) {
+        .dates {
+          float: none;
+        }
+      }
+
       @media print {
         body {
           font-size: 10.5pt;
@@ -46,11 +60,22 @@
         ul {
           padding-left: 15px;
         }
+
+        li {
+          margin-bottom: 0;
+        }
       }
     </style>
   </head>
 
   <body>
+    <nav class="screen-only">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/cv">CV</a></li>
+      </ul>
+    </nav>
+
     <header>
       <h1>Kerri Sharp-Scott</h1>
 
@@ -183,5 +208,9 @@
         </ul>
       </section>
     </article>
+
+    <footer class="screen-only">
+      <p><a href="#">Scroll back to the top</a></p>
+    </footer>
   </body>
 </html>

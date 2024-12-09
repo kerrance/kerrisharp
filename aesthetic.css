@@ -8,6 +8,7 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -20,7 +21,8 @@ body {
 }
 
 header,
-section {
+section,
+p {
   margin-bottom: 1rem;
 }
 
@@ -45,7 +47,6 @@ a:link {
   color: var(--color__green);
   text-decoration: underline var(--color__green) 0.1rem;
   text-underline-offset: 0.1rem;
-  word-break: break-all;
 }
 
 a:visited {
@@ -86,4 +87,14 @@ h1 {
 
 ul {
   padding-left: 1.25rem;
+}
+
+li {
+  margin-bottom: 0.4rem;
+}
+
+@media print {
+  .screen-only {
+    display: none;
+  }
 }
