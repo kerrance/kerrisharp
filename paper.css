@@ -1,0 +1,19 @@
+@media print {
+  body {
+    font-size: 14px;
+    color: black;
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  h2 {
+    font-size: 1.4em;
+  }
+
+  ul {
+    padding-left: 15px;
+  }
+}
