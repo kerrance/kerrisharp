@@ -15,26 +15,38 @@
         margin-bottom: 0;
       }
 
-      .dates {
-        float: right;
+      .experience {
+        display: flex;
+        justify-content: space-between;
       }
 
-      @media only screen and (max-width: 936px) {
-        .dates {
-          float: none;
+      .dates {
+        font-size: 1.5em;
+        font-weight: bold;
+      }
+
+      @media only screen and (max-width: 1130px) {
+        .experience {
+          flex-direction: column;
         }
       }
 
       @media print {
         body {
           font-size: 10.5pt;
-          color: #000;
-          padding: 0;
         }
 
-        header,
+        header {
+          margin-bottom: 0;
+        }
+
         section {
           margin-bottom: 10px;
+        }
+
+        .experience {
+          border-bottom: solid 1px black;
+          margin-bottom: 4px;
         }
 
         a:link {
@@ -50,17 +62,9 @@
           text-underline-offset: initial;
         }
 
-        h1 {
-          font-size: 2em;
-        }
-
-        h2 {
-          border-bottom: solid 1px black;
-          margin-bottom: 4px;
-        }
-
-        ul {
-          padding-left: 15px;
+        h2,
+        .dates {
+          font-size: 1.2em;
         }
 
         li {
@@ -95,8 +99,6 @@
         </p>
       </section>
 
-      <h2>Skills</h2>
-
       <section>
         <ul>
           <li>
@@ -109,15 +111,16 @@
         </ul>
       </section>
 
-      <h2>Experience</h2>
-
       <section>
-        <h3>
-          Software Engineer II, Intelligence Fusion / Sigma7&nbsp;<span class="dates">June 2024 &ndash; Present</span>
-        </h3>
+        <header class="experience">
+          <h2>Software Engineer II, Intelligence Fusion / Sigma7</h2>
+
+          <span class="dates">2021 &ndash; Present</span>
+        </header>
 
         <p>
-          Built a suite of web applications to improve customer accessibility to the parent company's risk services.
+          Developed full-stack web applications, APIs and services for accessing threat intelligence data and risk
+          services.
         </p>
 
         <ul>
@@ -137,15 +140,6 @@
             Created a peer-review process to celebrate individual work achievements, which increased employee
             satisfaction and team building
           </li>
-        </ul>
-      </section>
-
-      <section>
-        <h3>Software Engineer, Intelligence Fusion&nbsp;<span class="dates">2021 &ndash; 2024</span></h3>
-
-        <p>Developed full-stack web applications, APIs and services for accessing threat intelligence data.</p>
-
-        <ul>
           <li>
             Built a fully-documented "Notes" service to enable user-generated content within the application. Empowering
             customers to create and share additional context with their colleagues
@@ -182,7 +176,11 @@
       </section>
 
       <section>
-        <h3>Web Developer, Think Productive&nbsp;<span class="dates">2020 &ndash; 2021</span></h3>
+        <header class="experience">
+          <h2>Web Developer, Think Productive</h2>
+
+          <span class="dates">2020 &ndash; 2021</span>
+        </header>
 
         <p>
           Rebuilt dozens of customer-facing WordPress websites to improve performance and usability leading to increased
@@ -203,7 +201,11 @@
       </section>
 
       <section>
-        <h3>Web Developer, Opia&nbsp;<span class="dates">2016 &ndash; 2020</span></h3>
+        <header class="experience">
+          <h2>Web Developer, Opia</h2>
+
+          <span class="dates">2016 &ndash; 2020</span>
+        </header>
 
         <p>
           Developed hundreds of sales promotion websites for technology companies; including Google, LG and Microsoft.
