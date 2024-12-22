@@ -106,49 +106,59 @@
           <span class="dates">2021 &ndash; Present</span>
         </header>
 
-        <p>
-          Developed full-stack web applications, APIs and services for accessing threat intelligence data and risk
-          services.
-        </p>
-
         <ul>
           <li>
-            Built a fully-documented "Notes" service to enable user-generated content within the application. Empowering
-            customers to create and share additional context with their colleagues
+            Created a fully-documented "Notes" REST API with 100% test coverage using PHP 8.3 (Slim), PostgreSQL &
+            deployed via AWS to enable user-generated content. This allowed customers to create and share additional
+            context with their colleagues within the company's applications.
           </li>
 
           <li>
-            Led a "hackathon" where my team built a "Spotify Wrapped"-alike for our intelligence analysts, summarising
-            their efforts over the year with a humorous presentation improving team morale and encouraging competition
+            Greatly enhanced email notifications by embedding dynamically generated map images of incident locations
+            using PHP 8.3 (Slim), MapTiler API, MJML & CSS. This improved client awareness by warning them of threats or
+            dangers occuring in their locations of interest.
           </li>
 
           <li>
-            Created a system to dynamically generate and embed map images of incident locations into customer email
-            notifications, improving client awareness and communication
+            Implemented data ingestion from the third-party "Dragonfly" API to display alongside internally published
+            intelligence data using PHP 8 (Lumen) to provide customers with additional data sources.
           </li>
 
           <li>
-            Implemented authentication logging so that customers could scrutinise and keep track of login attempts
+            Built multi-factor authentication and authentication logging with PHP 8.3 (Slim) into our internal
+            "Authentication" REST API. This greatly improved application security and enabled the business to onboard
+            new customers who required enhanced security.
           </li>
 
           <li>
-            Built a multi-factor authentication system that greatly improved application security and enabled the
-            business to onboard new clients with this requirement
+            Delved into CQRS to update a legacy, event-driven, PHP API (Lumen). My work enabled intelligence analysts to
+            keep information and statistics up-to-date via the event stream.
           </li>
 
           <li>
-            Rewrote a large chunk of legacy code to remove event-driven architecture, enabling intelligence analysts to
-            keep country information and statistics up-to-date
+            Led a "hackathon" as project manager where my team built a "Spotify Wrapped"-alike using React, Vite,
+            TypeScript, CSS and deployed with Netlify. Making use of our internal APIs, we summarised the efforts of our
+            individual intelligence analysts over the year with a humorous presentation, which improved team morale and
+            encouraged competition.
           </li>
 
           <li>
-            Implemented regular automated data ingestion from the third-party Dragonfly API to display alongside
-            internally generated intelligence data
+            Contributed to the creation of an internal "Notifications" service written in GoLang, deployed as an AWS
+            Lambda. The service runs continuously, processing and sending notifications from payloads received via AWS
+            SQS. This enabled us to offer enhanced customisation of notifications to customers and save on third-party
+            service costs.
           </li>
 
           <li>
-            Created a customer-facing website with Jekyll to document our APIs and upcoming feature work roadmap,
-            increasing the opportunity for the company to sell data-access to API customers
+            Worked on a project to create a 'service status' page, deployed as an AWS Lambda function written in GoLang
+            & TypeScript. The system monitoring was powered with uptime statistics from AWS CloudWatch and enables
+            customers to know at a glance whether services are live or suffering downtime.
+          </li>
+
+          <li>
+            Created a customer-facing "Developer" website with Jekyll (Markdown, Liquid, SASS, jQuery) to document the
+            company's APIs and feature roadmap. This increased sales to customers who wanted intelligence data to power
+            their own frontend.
           </li>
         </ul>
       </section>
