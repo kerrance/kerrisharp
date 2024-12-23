@@ -135,6 +135,20 @@ nav ul li:last-child a:focus {
   color: white;
 }
 
+.meta {
+  display: inline-block;
+  font-size: 0.8rem;
+  padding: 0.1rem 0.6rem;
+  background-color: var(--color__green);
+  color: white;
+  border-radius: 0.3rem;
+  font-weight: bold;
+}
+
+.meta time {
+  font-weight: normal;
+}
+
 h1,
 h2 {
   text-decoration: underline var(--color__yellow) 0.2rem;
