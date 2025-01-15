@@ -28,6 +28,6 @@ For any inquiries, please email hello@kerrisharp.com.
 
 ## Credits
 
-- Made by [Kerri Sharp-Scott](https://kerrisharp.com)
+- Made by [Kerri Sharp-Scott](https://kerrisharp.com).
 - Thanks to [Lucy Sweet](https://lucy.sh/) and [Evan You](https://evanyou.me/) for helping me realise homepages can be simple, beautiful and effective.
 - [Thomas Hockaday](https://thomashockaday.github.io/) for his countless guidance and mentorship.
