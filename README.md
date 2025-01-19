@@ -1,4 +1,4 @@
-# Kerri Sharp-Scott
+# Kerri Sharp
 
 The website includes details about Kerri's background, leadership, testimonials and his writing.
 
@@ -11,7 +11,7 @@ The website includes details about Kerri's background, leadership, testimonials 
 
 ## Overview
 
-The website is designed to inform visitors about Kerri Sharp-Scott, his leadership journey, testimonials from colleagues and his writing.
+The website is designed to inform visitors about Kerri Sharp, his leadership journey, testimonials from colleagues and his writing.
 
 ## Getting Started
 
@@ -28,6 +28,6 @@ For any inquiries, please email hello@kerrisharp.com.
 
 ## Credits
 
-- Made by [Kerri Sharp-Scott](https://kerrisharp.com).
+- Made by [Kerri Sharp](https://kerrisharp.com).
 - Thanks to [Lucy Sweet](https://lucy.sh/) and [Evan You](https://evanyou.me/) for helping me realise homepages can be simple, beautiful and effective.
 - [Thomas Hockaday](https://thomashockaday.github.io/) for his countless guidance and mentorship.
